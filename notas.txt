@@ -1,0 +1,5 @@
+#89119D
+#FFCE00
+rgb (233,287,2)
+
+font-family: 'Staatliches', cursive;

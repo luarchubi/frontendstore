@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #9c27b0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.barraNavegacion {
+  background-color: #89119d;
+  text-align: center;
+  padding: 10px;
+  a {
+    text-decoration: none;
+    font-family: "Staatliches", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffce00;
+    margin-left: 1rem;
+  }
+}
+
+h1 {
+  font-family: "Staatliches", cursive;
+  color: #ffce00;
+  font-weight: 100;
+  text-align: center;
+  padding: 1rem;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
