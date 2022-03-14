@@ -31,4 +31,31 @@ h1 {
 
 .productos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  border: #89119d;
+  max-width: 75%;
+  margin: auto; }
+
+.remera {
+  background-color: #89119d;
+  display: grid;
+  justify-content: center; }
+
+.fotoremera {
+  max-width: 100%;
+  margin: 5px; }
+
+.nombre {
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 25px;
+  text-align: center;
+  margin: 1rem; }
+
+.precio {
+  color: #ffce00;
+  font-family: "Staatliches", cursive;
+  font-size: 15px;
+  text-align: center;
+  margin: 1rem; }
